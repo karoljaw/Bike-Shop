@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bike Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-center">
+      <span class="nav-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <h2 class="nav-logo">
+        Bike <span class="nav-logo-primary">Shop</span>
+      </h2>
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="banner">
+      <h1 class="banner-title">ready for a new bike</h1>
+      <a class="banner-btn" href="#products">shop now</a>
+    </div>
+  </header>
+  <section class="products" id="products">
+    <div class="section-title">
+      <h2>our products</h2>
+    </div>
+    <div class="products-center">
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+      <article class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="product" class="product-img">
+          <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"> add to bag</i></button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$15</h4>
+      </article>
+    </div>
+  </section>
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>Your Cart</h2>
+      <div class="cart-content">
+        <div class="cart-item">
+          <img src="./images/product-1.jpg" alt="product">
+          <div>
+            <h4>queen bed</h4>
+            <h5>$9.00</h5>
+            <span class="remove-item">remove</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up"></i>
+            <p class="item-amount">1</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+        <div class="cart-footer">
+          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
