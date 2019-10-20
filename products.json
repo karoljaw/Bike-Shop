@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "mountain bike",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/product-1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "comfort bike",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "road bike",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "cyclocross",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./images/product-4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "BMX bike",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "./images/product-5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "commuting bike",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "fixed gear",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "crosscountry",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpg" } } }
+      }
+    }
+  ]
+}
